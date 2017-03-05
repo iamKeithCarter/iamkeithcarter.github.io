@@ -58,7 +58,7 @@ h1, h2,h3,h4,h5,h6{
     list-style: none;
 }
 
-.picturewWindow{
+.viewWindow{
     height: 300px;
     width: 300px;
     margin-left: auto;
@@ -75,7 +75,6 @@ h1, h2,h3,h4,h5,h6{
 }
 #LatestWork{
     height:210px;
- 
     display: flex;
     justify-content: space-between;
     border: solid;
@@ -83,15 +82,10 @@ h1, h2,h3,h4,h5,h6{
  .imagBoxwText {
     width: 100%;
     height:200px;
-/*    display: inline-block;*/
     background-color:#211f1e;
     margin-bottom: 20px;
     margin-right:auto;
     margin-left: auto;
-/*  align-self: center;*/
-    border-style: dashed;
-    border-color:azure;
-    
     }
 
 #rowwork1{ background-image:url(img/Tuscany%20screenshot.png);
@@ -119,6 +113,11 @@ h1, h2,h3,h4,h5,h6{
     column-count:3;
     }
     
+    
+   .viewWindow{
+        background-attachment:fixed; 
+    }
+   
 }
 @media (min-width: 768px){ 
    .rowwork .imagBoxwText {
