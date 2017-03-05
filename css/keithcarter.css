@@ -57,6 +57,22 @@ h1, h2,h3,h4,h5,h6{
     column-rule-color: #504c4b;
     list-style: none;
 }
+
+.viewWindow{
+    height: 300px;
+   width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(img/KeithC.JPG);
+    background-color:#504c4b;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-blend-mode:multiply;
+
+    margin-bottom: 20px;
+   border-radius: 100%;
+}
 #LatestWork{
     height:210px;
  
@@ -69,7 +85,7 @@ h1, h2,h3,h4,h5,h6{
     height:200px;
 /*    display: inline-block;*/
     background-color:#211f1e;
- margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-right:auto;
     margin-left: auto;
 /*  align-self: center;*/
@@ -80,7 +96,19 @@ h1, h2,h3,h4,h5,h6{
 
 #rowwork1{ background-image:url(img/Tuscany%20screenshot.png);
    background-size: cover;
-    margin:4px;
+   
+    
+}
+
+#rowwork2{ background-image:url(img/VideoStore2.png);
+   background-size: cover;
+    
+    
+}
+
+#rowwork3{ background-image:url(img/VideoStore2.png);
+   background-size: cover;
+   
     
 }
 
