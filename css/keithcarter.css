@@ -67,7 +67,7 @@ h1, h2,h3,h4,h5,h6{
     background-color:#504c4b;
     background-position: top center;
     background-repeat: no-repeat;
-/*    background-attachment:fixed;*/
+
     background-blend-mode:multiply;
 
     margin-bottom: 20px;
@@ -106,6 +106,13 @@ h1, h2,h3,h4,h5,h6{
     
 }
 
+@media (max-width:640px){
+    
+    .viewWindow{
+        background-attachment:fixed; 
+    }
+}
+
 @media (min-width: 825px){ 
     
     #theRepos, #Skills{
@@ -114,9 +121,7 @@ h1, h2,h3,h4,h5,h6{
     }
     
     
-   .viewWindow{
-        background-attachment:fixed; 
-    }
+   
    
 }
 @media (min-width: 768px){ 
