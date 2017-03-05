@@ -58,16 +58,16 @@ h1, h2,h3,h4,h5,h6{
     list-style: none;
 }
 
-.viewWindow{
+.picturewWindow{
     height: 300px;
-   width: 300px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
     background-image: url(img/KeithC.JPG);
     background-color:#504c4b;
     background-position: top center;
     background-repeat: no-repeat;
-    background-attachment:fixed;
+/*    background-attachment:fixed;*/
     background-blend-mode:multiply;
 
     margin-bottom: 20px;
