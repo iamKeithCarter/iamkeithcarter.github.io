@@ -12,7 +12,7 @@
                 $.get("https://api.github.com/users/iamkeithcarter", function(data, status){
 
                     var  item= data.repos_url;
-                     $theRepos.append('<li>'+item+'</li>');
+//                     $theRepos.append('<li>'+item+'</li>');
                         
                     $.get(item,function(data,status){
 
