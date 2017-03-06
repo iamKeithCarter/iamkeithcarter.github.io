@@ -1,24 +1,24 @@
-body{
-    background-color:#2f2c2b;
-    background-image:url(rock340.jpg);
-    background-attachment: scroll;
+body {
+    background-color: #2f2c2b;
+    background-image: url(rock340.jpg);
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    background-blend-mode:multiply;
-    
+    background-blend-mode: multiply;
 }
-
-
 
 .btn-default {
     border: 1px solid #a8eb42;
     color: #42b2dc;
-    }
+}
 
-
-
-h1, h2,h3,h4,h5,h6{
-    font-weight:400;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
 }
 
 .btn-circle {
@@ -36,115 +36,111 @@ h1, h2,h3,h4,h5,h6{
     -moz-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
 }
+
 .bt-circle:hover,
 .btn-circle:focus {
-  
-  color: #a8eb42;
-  
+    color: #a8eb42;
 }
-#ReposBlock{
+
+#ReposBlock {
     margin-top: 95px;
     padding: 65px;
     background-color: #2f2c2b;
     text-align: center;
-    
 }
-#theRepos, #Skills{
-    column-count:2;
+
+#theRepos,
+#Skills {
+    column-count: 2;
     column-fill: balance;
     column-rule-width: 2px;
     column-rule-style: ridge;
-    -webkit-column-rule-color: #a8eb42; /* Chrome, Safari, Opera */
-    -moz-column-rule-color: #42b2dc; /* Firefox */
+    -webkit-column-rule-color: #a8eb42;
+    /* Chrome, Safari, Opera */
+    -moz-column-rule-color: #42b2dc;
+    /* Firefox */
     column-rule-color: #504c4b;
     list-style: none;
 }
 
-.viewWindow{
+.viewWindow {
     height: 300px;
     width: 300px;
     margin-left: auto;
     margin-right: auto;
     background-image: url(img/KeithC.JPG);
-    background-color:#504c4b;
+    background-color: #504c4b;
     background-position: top center;
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-blend-mode:multiply;
-
+    background-attachment: fixed;
+    background-blend-mode: multiply;
     margin-bottom: 20px;
-   border-radius: 100%;
+    border-radius: 100%;
 }
-#LatestWork{
-    height:210px;
+
+.viewWindow2 {
+    height: 300px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(img/KeithC.JPG);
+    background-color: #504c4b;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    margin-bottom: 20px;
+    border-radius: 100%;
+}
+
+#LatestWork {
+    height: 210px;
     display: flex;
     justify-content: space-between;
     border: solid;
 }
- .imagBoxwText {
+
+.imagBoxwText {
     width: 100%;
-    height:200px;
-    background-color:#211f1e;
+    height: 200px;
+    background-color: #211f1e;
     margin-bottom: 20px;
-    margin-right:auto;
+    margin-right: auto;
     margin-left: auto;
-    }
-
-#rowwork1{ background-image:url(img/Tuscany%20screenshot.png);
-   background-size: cover;
-   
-    
 }
 
-#rowwork2{ background-image:url(img/VideoStore2.png);
-   background-size: cover;
-    
-    
+#rowwork1 {
+    background-image: url(img/Tuscany%20screenshot.png);
+    background-size: cover;
 }
 
-#rowwork3{ background-image:url(img/virtualPet.png);
-   background-size: cover;
-   
-    
+#rowwork2 {
+    background-image: url(img/VideoStore2.png);
+    background-size: cover;
 }
 
-@media (min-width:740px){
-    
-    .viewWindow{
-        background-attachment:fixed; 
-    }
-    body{
-        background-attachment: fixed;
-    }
+#rowwork3 {
+    background-image: url(img/virtualPet.png);
+    background-size: cover;
 }
 
-@media (min-width: 825px){ 
-    
-    #theRepos, #Skills{
+
+@media (min-width: 825px) {
+    #theRepos,
+    #Skills {
         text-align: left;
-    column-count:3;
+        column-count: 3;
     }
-    
-    
-   
-   
 }
-@media (min-width: 768px){ 
-   .rowwork .imagBoxwText {
+
+@media (min-width: 768px) {
+    .rowwork .imagBoxwText {
         width: 29%;
     }
- .intro .intro-body .brand-heading {
-    font-size: 59px;
-  }
-
-.btn-default {
-    border: 1px solid #42b2dc;
-    color: #a8eb42;
+    .intro .intro-body .brand-heading {
+        font-size: 59px;
     }
-    
-
-
-
+    .btn-default {
+        border: 1px solid #42b2dc;
+        color: #a8eb42;
+    }
 }
-
-
