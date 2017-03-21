@@ -144,3 +144,42 @@ h6 {
         color: #a8eb42;
     }
 }
+
+/*  animations */
+
+
+/* Safari 4.0 - 8.0 */
+/*
+@-webkit-keyframes tech2 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+*/
+
+/* Standard syntax */
+/*
+@keyframes tech2 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+}
+
+
+#techboy2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: tech2;
+     -webkit-animation-name: tech2;  Safari 4.0 - 8.0 
+*/
+/*    -webkit-animation-duration: 4s;  Safari 4.0 - 8.0 */
+/*
+    animation-duration: 8s;
+    position: absolute;
+    
+}*/
